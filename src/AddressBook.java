@@ -11,8 +11,8 @@ public class AddressBook {
         info.add(b);
     }
 
-    public boolean removeBuddy(BuddyInfo b){
-        return info.remove(b);
+    public void removeBuddy(BuddyInfo b){
+        info.remove(b);
     }
     public static void main(String[] args) {
         System.out.println("Address Book");
