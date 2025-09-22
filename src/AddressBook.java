@@ -20,5 +20,10 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
+        printa();
+    }
+
+    public static void printa() {
+        System.out.print("a");
     }
 }
